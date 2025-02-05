@@ -10,20 +10,24 @@
 <body>
     <h1>Formulario</h1>
     <form action="https://iesluisvelez.org/ver_REQUEST.php?">
-
         <fieldset>
             <legend>Datos de registro</legend>
 
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"> <br><br>
+
+            <label for="nombre">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+
             <label for="contraseña">Contraseña:</label><br>
             <input type="password" id="contraseña" name="contraseña">
-           
+
             <label for="nacionalidad">Nacionalidad:</label><br>
             <input type="text" id="nacionalidad" name="nacionalidad">
         </fieldset>
 
-        <br>
+        <button type="reset" value="reiniciar">Reiniciar</button>
         <button type="submit" value="enviado">Enviar</button>
-
     </form>
 </body>
 

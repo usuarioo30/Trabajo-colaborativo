@@ -4,12 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 
 <body>
+    <h1>Formulario</h1>
     <form action="https://iesluisvelez.org/ver_REQUEST.php?">
-        
+
+        <fieldset>
+            <legend>Datos de registro</legend>
+
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña">
+           
+            <label for="nacionalidad">Nacionalidad:</label><br>
+            <input type="text" id="nacionalidad" name="nacionalidad">
+        </fieldset>
+
+        <br>
+        <button type="submit" value="enviado">Enviar</button>
+
     </form>
 </body>
 
